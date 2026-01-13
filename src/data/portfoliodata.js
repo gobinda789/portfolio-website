@@ -1,9 +1,13 @@
 // src/data/portfolioData.js
+import profileImg from "../assets/images/profile.jpg";
+import agriculture from "../assets/images/AGB.jpeg";
+import linefollowing from "../assets/images/LFR.png";
+import object from "../assets/images/ODFB.png";
 
 export const personalInfo = {
   name: "Govinda Bhandari",
   title: "Electronics, Communication and Information Engineer",
-  avatar: "./src/assets/images/profile.jpg",
+  avatar: profileImg,
   contacts: {
     email: "gobindabhandari789@gmail.com",
     phone: "+977 9869143227",
@@ -71,7 +75,7 @@ export const projects = [
    {
     title: "Smart Agriculture Bot",
     category: "Robotics & Embedded Systems",
-    image: "./src/assets/images/AGB.jpeg",
+    image: agriculture,
     description: "An autonomous and manually controlled agricultural robot designed to automate farming tasks like ploughing, seed sowing, flattening, and irrigation using real-time sensor integration and embedded control. :contentReference[oaicite:2]{index=2}",
    fullDescription: "The Smart Agriculture Bot is an innovative solution aimed at revolutionizing traditional farming practices. Equipped with a range of sensors including soil moisture, temperature, and humidity sensors, the bot can monitor field conditions in real-time. It features both autonomous and manual control modes, allowing farmers to choose between automated operations or direct control via a remote interface. The bot is capable of performing essential agricultural tasks such as ploughing, seed sowing, flattening, and irrigation, thereby increasing efficiency and reducing labor costs. Its embedded control system ensures precise operation, while its robust design allows it to navigate various terrains commonly found in agricultural settings.",
      githubUrl: "https://github.com/gobinda789/Smart-Agriculture-Bot"
@@ -79,7 +83,7 @@ export const projects = [
   {
     title: "Object Navigation App for Blind Persons",
     category: "Mobile App & Computer Vision",
-    image: "./src/assets/images/ODFB.png",
+    image: object,
     description: "Android-based assistive application using object detection and depth estimation to help visually impaired users navigate safely with audio feedback and obstacle awareness. :contentReference[oaicite:3]{index=3}",
    fullDescription: "The Object Navigation App for Blind Persons is designed to enhance the mobility and independence of visually impaired individuals. The app leverages advanced computer vision techniques, including object detection and depth estimation, to identify obstacles in the user's environment. By utilizing the smartphone's camera, the app continuously scans the surroundings and provides real-time audio feedback to alert users of nearby objects and potential hazards. The intuitive interface allows users to easily interact with the app, making navigation safer and more efficient. This project aims to empower visually impaired users by providing them with a reliable tool for everyday navigation.",
    githubUrl: "https://github.com/gobinda789/object_navigation_for_blind_person_app"
@@ -87,7 +91,7 @@ export const projects = [
   {
     title: "Line Following Robot",
     category: "Embedded Robotics",
-    image: "./src/assets/images/LFR.png",
+    image: linefollowing,
     description: "A sensor-based line following robot demonstrating foundational robotics skills including sensor integration, motor control, and algorithmic path following. :contentReference[oaicite:4]{index=4}",
     fullDescription: "The Line Following Robot is a fundamental robotics project that showcases essential skills in sensor integration, motor control, and algorithmic path following. The robot is equipped with infrared sensors that detect the contrast between the line and the surface, allowing it to follow a predefined path accurately. The embedded control system processes sensor data in real-time to adjust the robot's movement, ensuring it stays on course. This project serves as an excellent introduction to robotics, providing hands-on experience with hardware components and programming logic required for autonomous navigation.",
    githubUrl: "https://github.com/gobinda789/Line-following-Bot"
