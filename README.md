@@ -46,19 +46,6 @@ Replace project items with your own in the projects section
 
 Update links (GitHub, LinkedIn, Resume)
 
-📂 Project Structure
-
-portfolio-website/
-├── public/ # Static assets (images, favicon, etc.)
-├── src/ # React source code
-│ ├── assets/ # Images, fonts, media
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Page layouts (About, Projects, Contact)
-│ ├── App.jsx # Main app component
-│ └── main.jsx # Entry point for React
-├── index.html # Root HTML file
-├── package.json # Project dependencies & scripts
-└── vite.config.js # Vite configuration
 
 🧠 Learnings
 
