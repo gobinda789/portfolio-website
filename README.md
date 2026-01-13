@@ -49,15 +49,16 @@ Update links (GitHub, LinkedIn, Resume)
 📂 Project Structure
 
 portfolio-website/
-├── public/             # Static assets
-├── src/                # React source code
-│   ├── components/     # UI components
-│   ├── pages/          # Page layouts
-│   ├── assets/         # Images & media
-│   └── App.jsx         # Main app entry
-├── index.html          # Root HTML file
-├── package.json        # Project metadata & scripts
-└── vite.config.js      # Vite configuration
+├── public/ # Static assets (images, favicon, etc.)
+├── src/ # React source code
+│ ├── assets/ # Images, fonts, media
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page layouts (About, Projects, Contact)
+│ ├── App.jsx # Main app component
+│ └── main.jsx # Entry point for React
+├── index.html # Root HTML file
+├── package.json # Project dependencies & scripts
+└── vite.config.js # Vite configuration
 
 🧠 Learnings
 
