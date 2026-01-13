@@ -1,16 +1,62 @@
-# React + Vite
+Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using React and Vite.
+It shows my projects, skills, and basic information in a clean and responsive layout.
 
-Currently, two official plugins are available:
+About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I created this website to showcase my work and learning as an Electronics, Communication and Information Engineering student.
+It is a simple portfolio for practice and personal use.
 
-## React Compiler
+Tech Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React
 
-## Expanding the ESLint configuration
+Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript
+
+HTML & CSS
+
+Project Setup
+Clone the repository
+git clone https://github.com/gobinda789/portfolio-website.git
+
+Go to project folder
+cd portfolio-website
+
+Install dependencies
+npm install
+
+Run the project
+npm run dev
+
+
+Open in browser:
+
+http://localhost:5173
+
+Build for Production
+npm run build
+
+Customization
+
+You can edit:
+
+Content in src folder
+
+Projects and details inside components or data files
+
+Styles in CSS files
+
+Purpose
+
+Practice React
+
+Create a personal portfolio
+
+Showcase projects and skills
+
+License
+
+This project is open for learning and personal use.
