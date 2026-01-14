@@ -10,10 +10,26 @@ import './MainContent.css';
 const MainContent = ({ aboutMe, education, experience, skills, projects }) => {
   const [activeTab, setActiveTab] = useState('about');
 
+  // Get the title based on active tab
+  const getTitle = () => {
+    switch(activeTab) {
+      case 'about': return 'About me';
+      case 'resume': return 'Resume';
+      case 'projects': return 'Projects';
+      case 'contact': return 'Contact';
+      default: return 'About me';
+    }
+  };
+
   return (
     <div className="main-content">
-      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      {/* Header with title on left and navbar on right */}
+      <div className="content-header">
+        <h2 className="page-title">{getTitle()}</h2>
+        <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      </div>
 
+      {/* Content sections */}
       {activeTab === 'about' && <About aboutMe={aboutMe} />}
       {activeTab === 'resume' && (
         <Resume 
@@ -27,5 +43,5 @@ const MainContent = ({ aboutMe, education, experience, skills, projects }) => {
     </div>
   );
 };
-export default MainContent;
 
+export default MainContent;

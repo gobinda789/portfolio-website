@@ -1,6 +1,4 @@
-// // src/components/sections/Projects.jsx
-
-
+// src/components/sections/Projects.jsx
 import { useState } from 'react';
 import './Sections.css';
 
@@ -17,8 +15,6 @@ const Projects = ({ projects }) => {
 
   return (
     <article className="article active">
-      <h2 className="article-title">Projects</h2>
-
       <section>
         <div className="project-list">
           {projects.map((project, index) => (
@@ -45,7 +41,7 @@ const Projects = ({ projects }) => {
         </div>
       </section>
 
-      {/* Project Detail Modal - Centered Popup */}
+      {/* Project Detail Modal */}
       {selectedProject && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -65,7 +61,6 @@ const Projects = ({ projects }) => {
                 {selectedProject.fullDescription || selectedProject.description}
               </p>
 
-              {/* GitHub Link */}
               {selectedProject.githubUrl && (
                 <div className="modal-links">
                   <a 

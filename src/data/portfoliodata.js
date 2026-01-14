@@ -30,13 +30,13 @@ export const aboutMe = {
   services: [
     {
       icon: "💻",
-      title: "Web Development",
-      description: "Building modern, responsive websites with the latest technologies and best practices."
+      title: "Programming Languages",
+      description: "Proficient in C, C++, Python, Javascript for developing entire systems."
     },
     {
-      icon: "📱",
-      title: "Mobile Apps",
-      description: "Creating cross-platform mobile applications with React Native and Flutter."
+      icon: "🤝",
+      title: "Team Leader",
+      description: "I enjoy leading teams, encouraging collaboration, and guiding projects to success through open communication and shared goals."
     }
   ]
 };

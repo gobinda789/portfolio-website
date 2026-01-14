@@ -24,6 +24,7 @@
   margin-bottom: 30px;
   position: relative;
   padding-bottom: 10px;
+ 
 }
 
 .article-title::after {
@@ -181,7 +182,7 @@
 .project-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 30px;
   margin-bottom: 20px;
   width: 100%;
 }

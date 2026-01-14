@@ -24,8 +24,6 @@ const Contact = () => {
 
   return (
     <article className="article active">
-      <h2 className="article-title">Contact</h2>
-
       <section>
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="input-wrapper">

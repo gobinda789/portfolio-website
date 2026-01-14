@@ -4,10 +4,8 @@ import './Sections.css';
 const Resume = ({ education, experience, skills }) => {
   return (
     <article className="article active">
-      <h2 className="article-title">Resume</h2>
-
       <section className="timeline">
-        <h3 className="article-title" style={{ fontSize: '22px' }}>Education</h3>
+        <h3 className="timeline-title">Education</h3>
 
         <ol className="timeline-list">
           {education.map((edu, index) => (
@@ -29,7 +27,7 @@ const Resume = ({ education, experience, skills }) => {
       </section>
 
       <section className="timeline">
-        <h3 className="article-title" style={{ fontSize: '22px' }}>Experience</h3>
+        <h3 className="timeline-title">Experience</h3>
 
         <ol className="timeline-list">
           {experience.map((exp, index) => (
@@ -45,7 +43,7 @@ const Resume = ({ education, experience, skills }) => {
       </section>
 
       <section className="skills-list">
-        <h3 className="article-title" style={{ fontSize: '22px' }}>My Skills</h3>
+        <h3 className="timeline-title">My Skills</h3>
 
         {skills.map((skill, index) => (
           <div key={index} className="skills-item">

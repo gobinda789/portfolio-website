@@ -4,8 +4,6 @@ import './Sections.css';
 const About = ({ aboutMe }) => {
   return (
     <article className="article active">
-      <h2 className="article-title">About me</h2>
-
       <section>
         {aboutMe.description.map((paragraph, index) => (
           <p key={index} className="about-text">
@@ -15,9 +13,7 @@ const About = ({ aboutMe }) => {
       </section>
 
       <section>
-        <h3 className="article-title" style={{ fontSize: '22px', marginTop: '40px' }}>
-          What I'm doing
-        </h3>
+        <h3 className="service-title">Things I am Good at</h3>
 
         <div className="service-list">
           {aboutMe.services.map((service, index) => (
